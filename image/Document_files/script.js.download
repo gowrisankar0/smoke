@@ -1,0 +1,415 @@
+// var array=["apple","orange","grape"];
+
+// var hii=new Array("apple","orange","grape");
+// console.log(hii);
+
+// var gpwri=["dffgkj"];
+// console.log("gpwri");
+
+
+
+
+// let num=[1,2,3,4];
+// console.log(num);
+
+// let mixed=[1,3,4,4,"fkhfdsjhfh","jefjksfdjk"];
+// console.log(mixed);
+
+// array.push(1,3,3,3,"mareess");
+// console.log(array);
+// console.log(array.length);
+
+// num.unshift("sankar");
+// num.push(1111131);
+// console.log(num);
+// console.log(num.length);
+
+// var fruitone=["apple","grape","egg"];
+// var fruittwo=["banana","juck","milk"];
+// for(i=0;i<fruittwo.length;i++){
+//     fruitone.push(fruittwo[i]);
+//     console.log(fruitone);
+// }
+
+// 5<10?console.log(true):console.log(false);
+// var gow;
+// gow%2==0?console.log("even"):console.log("odd");
+
+// let year=2016;
+// year/4==0?console.log("leap"):console.log("Not a leap");
+
+
+
+
+// var u=837;
+// var f=true;
+// console.log(u+f);
+// let g=undefined;
+// console.log(typeof g);
+// function hii(){
+//     console.log("hello");
+//     console.log("world");
+
+// }
+// hii()
+
+
+// helloname("gowri");
+
+// function hii(bye){
+//     console.log("hello " + bye);
+// }
+
+// hii("sankar");
+// function helloname(name){
+//     console.log("hello "+ name);
+// }
+// let user= prompt("hii dear user ");
+// helloname("gowri");
+
+// function addele(num1,num2){
+//     let abc=parseInt(num1);
+//     let efg=parseInt(num2);
+//     var y = abc +efg;
+
+//     console.log("the added element is" + y);
+// }
+// let z =prompt("enter the 1element");
+// let h =prompt("enter the 2element");
+
+// addele(z,h);
+
+// function cube(squre){
+//     let ans =squre*squre*squre;
+//     console.log("the ans is " + ans);
+//     return ans;
+
+// }
+// var a = cube(2);
+// console.log( "cube of two is " +a);
+// var b =cube(3);
+// console.log( "cube of three is " +b);
+
+
+// let otp = prompt("enter a number");
+// let otp2 = prompt("enter a 2number");
+
+// if(otp==otp2){
+
+//     console.log("valid");
+
+// }else{
+//     console.log("invLID");
+// }
+ 
+//  let height = prompt( "enter  height meter ");
+//  let weight = prompt( "enter  weight kg ");
+//   let bmi = weight/(height*height );
+//   if (bmi<18.5 ){
+//     console.log("under weight ");
+//     console.log(bmi);
+//   }else if (bmi==18.5 || bmi==24.5){
+//     console.log("normal");
+//     console.log(bmi);
+
+//   }else if (bmi<=35 && bmi>39){
+//     console.log("obacity");
+//     console.log(bmi);
+
+//   }
+//  else {
+//     console.log("extreme");
+//     console.log(bmi);
+
+//  }
+
+// var month= prompt("enter a month in number ");
+// switch (month){
+//   case "jan": 
+//   alert ("start");
+//   break;
+//   case "feb": 
+//   alert ("second");
+//   break;
+//   case "mar": 
+//   alert ("start ed");
+//   break;
+  
+//   default :
+//   alert ("not");
+//   break;
+  
+
+
+// }
+
+// var game = prompt("enter the game ");
+// switch(game){
+//   case "chess":
+//     case "carrom":
+//     case "pallaanguli":
+//       console.log(game +"this is a kind of indoor game ");
+//       break;
+
+//       case "foot ball ":
+//         case "volley ball":
+//         case "kabadi":
+//           console.log(game +"this is a kind of outdoor game ");
+//           break; 
+
+//           default:
+//             console.log("game does not exist");
+          
+// }
+
+// let text =prompt("enter the word ");
+// switch (text){
+//   case "gm":
+//     alert ("good morning ");
+//     break;
+//     case "gv":
+//       alert ("good evenig ");
+//       break;
+
+//       case "gn":
+//         alert ("good night ");
+//         break;
+//         case "wru":
+//           alert ("who are you ");
+//           break;
+//           default:
+//             alert ("this word not recigonized");
+// }
+
+
+// var number =0;
+// var sum = 0;
+// while (number<=0) {
+//     sum +=number;
+
+//     number =parseInt (prompt("enter a number "));
+
+   
+    
+// }
+// console.log("the number is " +sum);
+
+// var odd=0;
+// while (odd+=2) {
+//     var n = parseInt (prompt("enter the number "));
+    
+// var num =parseInt(prompt("enter a nubver"));
+// count=0;
+// if (num==1){
+//     console.log("general");
+// }else{
+//     for(i=2;i<num;i++){
+        
+//         if (num%i==0){
+//             console.log("not a prime ")
+//             Count++;
+//         }
+//     }
+// }
+// if (count >0){
+//     console.log(num+"is a peime ");
+// }else {
+//     console.log(num+"not a prime ");
+// }
+
+// lcm  leat common diviser 6 8 =24
+
+// let num1=parseInt(prompt("enter a number 1"));
+// let num2=parseInt(prompt("enter a number 2"));
+
+// let div=num1 >num2 ? num1:num2;
+
+// while(true){
+//     if (div%num1==0 && div%num2==0){
+//         console.log("the lcm is" +div);  
+//         break;
+//     }div++;
+// }
+// armstrong Number
+// sum =0;
+// let num=parseInt(prompt("enter the number "));
+// let tmp=num;
+// while (num>0){
+
+//     let rem  = tmp%10;
+    
+//     sum =sum +(rem *rem *rem );
+
+//     tmp =parseInt(tmp/10);
+
+
+
+// }if (num ===sum){
+//     console.log("this is an amstrong " +sum);
+// }else {
+//     console.log("not a arm strong" + sum);
+// }
+
+
+// temp = a;
+// a =b;
+// b=temp;
+// console.log("after swaping the value of a is" +a +"b is "+b);
+
+
+// let b=parseInt(prompt("enter the value b"));
+// console.log("before swaping the value of a is "+a+"b is"+b);
+
+// temp=a;
+// a=b;
+// b=temp;
+// console.log("after swaping the value of a is" +a +"b is "+b);
+
+
+
+// let a =parseInt(prompt("enter the value to be printed"));
+// let string ="";
+// for (let i =1;i<a;i++){
+//     for (let j=1;j<i;j++){
+//         string = string + "#";
+
+//     }string = string + "\n";
+// }
+// console.log(string );
+
+// let value =parseInt(prompt("enter the number "));
+// let string ="";
+// function triangle(value){
+
+//     for(let i=0;i<=value;i++){
+//         for (let j=1;j<=i-1;j++){
+//             string+="";
+//         }for(let k=0;k<i;k++){
+//             string+="*";
+//         }string+="\n";
+//     }
+//     console.log(string);
+
+// }
+// triangle(value)
+
+// function triangle(n){
+// for (i=0;i<n;i++){
+//     for(j=0;j<i;j++){
+//         if(i==n){
+//             string+="*";
+
+//         }else{
+//             if(j==0 || j==i-1){
+//                 string+="*";
+//             }else{
+//                 string+=" ";
+//             }
+//         }
+     
+
+//     }string+="\n";
+// }console.log(string);
+// }
+
+// triangle(n);
+
+
+// let n =parseInt(prompt("enter the number"));
+// let string = "";
+// for(i=0;i<n;i++){
+//     for(j=0;j<i;j++){
+//         string+=" ";
+//     }for(k=0;k<2*(n-i)+1;k++){
+//         string+="*";
+//     }string+="\n";
+// }console.log(string);
+
+
+// let n =parseInt(prompt("enter the number"));
+// let string = "";
+// function hourglass(n){
+
+//     for (i=1;i<n;i++){
+//         for(j=1;j<i;j++){
+//             string+=" ";
+//         }for(k=0;k<2*(n-i)+1;k++){
+//             string+="*";
+//         }string+="\n";
+//     }
+
+//     for (i=1;i<n;i++){
+//         for(j=1;j<=n-i;j++){
+//             string+=" ";
+//         }for(k=0;k<2*i-1;k++){
+//             string+="*";
+//         }string+="\n";
+//     }console.log(string);
+// }
+// hourglass(n);
+
+
+// var person ={
+//     name :"gowri sankar ",
+//     age : "20",
+//     gender : "male",
+//     sleep :function(){
+//         var hii = "computer ";
+//         console.log("i sleep 9 hours "+this.name + hii);
+//     },
+//      action:function(){
+//         console.log("this inside the acton");
+//     }
+
+// }
+// var bnec = person;
+// bnec.name ="vanaraja";
+// console.log(bnec);
+
+
+//   function Person(name,medium,college){
+//     this.name = name;
+//     this.medium =medium;
+//     this. college = college;
+//     this.intrest =function(abc){
+//         console.log("swimming ");
+//     }
+
+
+
+//   }
+//   var user1 =new Person("ravi","tamil","ns");
+//   console.log(user1);
+
+//   var user2 = new Person("karthick","english","psna");
+//   console.log(user2);
+
+//   console.log(user1.name + " " +user2.name);
+
+// var a =undefined;
+// console.log(typeof a);
+// function abc(){
+//     console.log("hello world!");
+// }
+// console.log(typeof abc);
+
+// var array = new Array();
+// array.prototype.hii=function(){
+// }
+// console.log(array);
+
+// var table = parseInt(prompt("enter the no"));
+// for(var i=1;i<table;i++){
+//     var result=table*i;
+// }
+// console.log(table+"*"+i+"="+result);
+var a ={
+    name:"marees",
+    age:"22"
+}
+
+Object.defineProperty(a,name,{
+    configurable:false
+})
+delete a.name
+console.log(a.name);
